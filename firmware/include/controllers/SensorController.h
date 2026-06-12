@@ -10,7 +10,7 @@ class SensorController {
 
   void begin();
   void readRaw(float out[9]);
-
+bool readRaw(float out[9]);
   void beginCalibration();
   void updateCalibration();
   bool calibrationDone() const;
